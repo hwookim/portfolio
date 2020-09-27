@@ -1,2 +1,5 @@
-# woowacourse
-[우아한테크코스](https://woowacourse.github.io/) 2기 백엔드 과정 정리를 위한 저장소
+# HyunWoo Kim's Portfolio
+
+[https://hwookim.github.io/portfolio/](https://hwookim.github.io/portfolio/)
+
+포트폴리오 페이지를 위한 저장소입니다.
