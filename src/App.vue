@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="flex h-screen bg-green-100 flex-col">
-      <div class="info flex w-4/5 mx-auto p-10 bg-white justify-between">
+      <div class="info flex w-4/5 mx-auto my-5 p-10 bg-white justify-between">
         <div>
           <div class="text-5xl font-bold">김현우</div>
           <div>Backend Developer</div>
