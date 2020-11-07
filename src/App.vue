@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <div class="h-screen bg-green-100">
-      <div class="flex w-3/4 xl:w-1/2 mx-auto pt-5 flex-col">
-        <div class="info flex w-full p-10 bg-white justify-between">
+    <div class="h-screen bg-gray-300">
+      <div class="flex w-3/4 xl:w-2/5 mx-auto pt-5 flex-col">
+        <div class="flex w-full p-10 bg-white justify-between rounded-xl">
           <div>
             <div class="text-5xl font-bold">김현우</div>
             <div>Backend Developer</div>
@@ -19,8 +19,19 @@
           </div>
         </div>
 
-        <div class="info w-full mx-auto my-2 py-2 bg-white">
-          <div class="calendar w-11/12"></div>
+        <div
+          class="flex w-full my-2 py-3 px-5 bg-white justify-center rounded-xl flex-col"
+        >
+          <div class="mb-3 text-center text-2xl font-bold">🐢 꾸준히 한걸음씩 걸어나가는 중입니다 🐢</div>
+          <div>
+            <a href="https://github.com/hwookim" target="_blank">
+              <img
+                src="http://ghchart.rshah.org/hwookim"
+                alt="hwookim's Github chart"
+                class="w-full"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -28,17 +39,7 @@
 </template>
 
 <script>
-import 'github-calendar/dist/github-calendar-responsive.css';
-import GitHubCalendar from 'github-calendar';
-
 export default {
   name: 'App',
-  mounted() {
-    GitHubCalendar('.calendar', 'hwookim', {
-      responsive: true,
-      cache: 3600,
-      global_stats: false,
-    });
-  },
 };
 </script>
