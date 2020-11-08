@@ -21,7 +21,7 @@
 
         <content-box class="py-3 px-5 flex-col justify-center">
           <div class="mb-3 text-center text-2xl font-bold">
-            🐢 꾸준히 한걸음씩 걸어나가는 중입니다 🐢
+            🐢 꾸준히 한걸음씩 나아가는 중입니다 🐢
           </div>
           <div>
             <a href="https://github.com/hwookim" target="_blank">
