@@ -7,8 +7,8 @@
             <div class="text-5xl font-bold">김현우</div>
             <div>Backend Developer</div>
           </div>
-          <div>
-            <div class="py-3">
+          <div class="flex flex-col justify-between">
+            <div>
               <a
                 href="https://github.com/hwookim"
                 target="_blank"
@@ -18,7 +18,7 @@
                 github.com/hwookim
               </a>
             </div>
-            <div class="py-3">
+            <div>
               <a
                 href="mailto:gusdn9754@gmail.com"
                 target="_blank"
