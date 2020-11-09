@@ -9,10 +9,22 @@
           </div>
           <div>
             <div class="py-3">
-              <a href="https://github.com/hwookim" target="_blank"> hwookim </a>
+              <a
+                href="https://github.com/hwookim"
+                target="_blank"
+                class="flex items-center"
+              >
+                <i class="mdi mdi-github text-2xl mr-2" />
+                github.com/hwookim
+              </a>
             </div>
             <div class="py-3">
-              <a href="mailto:gusdn9754@gmail.com" target="_blank">
+              <a
+                href="mailto:gusdn9754@gmail.com"
+                target="_blank"
+                class="flex items-center"
+              >
+                <i class="mdi mdi-email text-2xl mr-2" />
                 gusdn9754@gmail.com
               </a>
             </div>
