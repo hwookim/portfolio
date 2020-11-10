@@ -60,7 +60,9 @@
                 class="w-12 h-12 mr-3"
               />
               <div class="flex flex-col mb-1">
-                <div class="text-xl font-bold">우아한테크코스 2기</div>
+                <a href="https://woowacourse.github.io/" target="_blank">
+                  <div class="text-xl font-bold">우아한테크코스 2기</div>
+                </a>
                 <div class="text-gray-600">2020.02 ~ 2020.11</div>
                 <div>백엔드 과정 수료</div>
               </div>
@@ -72,7 +74,9 @@
                 class="w-12 h-12 mr-3"
               />
               <div class="flex flex-col mb-1">
-                <div class="text-xl font-bold">동국대학교(서울)</div>
+                <a href="https://mme.dongguk.edu/" target="_blank">
+                  <div class="text-xl font-bold">동국대학교(서울)</div>
+                </a>
                 <div class="text-gray-600">2016.03 ~ (휴학)</div>
                 <div>멀티미디어공학과 2학년 수료</div>
               </div>
@@ -84,7 +88,12 @@
                 class="w-12 h-12 mr-3"
               />
               <div class="flex flex-col mb-1">
-                <div class="text-xl font-bold">한국디지털미디어고등학교</div>
+                <a
+                  href="https://www.dimigo.hs.kr/index.php?mid=class_wp"
+                  target="_blank"
+                >
+                  <div class="text-xl font-bold">한국디지털미디어고등학교</div>
+                </a>
                 <div class="text-gray-600">2013.03 ~ 2016.02 (졸업)</div>
                 <div>웹프로그래밍학과</div>
               </div>
