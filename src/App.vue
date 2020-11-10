@@ -36,8 +36,80 @@
         </content-box>
 
         <content-box>
+          <div class="ml-5 mb-3 text-2xl font-bold">About me</div>
+          <div>
+            <div class="mb-3">
+              <div class="font-bold">테스트 작성을 당연하게 생각합니다.</div>
+              <div>
+                우아한테크코스에서 처음으로 웹 개발을 배우면서 항상 테스트가
+                있는 코드만을 접해왔습니다. Junit5를 통해 TDD 사이클의 개발을
+                자연스럽게 익혀왔습니다. 테스트가 없는 코드에 불안해하고
+                테스트를 통해 안정성을 보장하고 싶어합니다.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <div class="font-bold">
+                다양한 방법으로 의견을 공유하고 설득하고 설득당하는 걸 즐깁니다.
+              </div>
+              <div>팀원 간의 코드리뷰를 통해 더 나은 코드를 추구합니다.</div>
+              <div>
+                우아한 테크코스에서 운영하는 기술 블로그를 통해 배운 지식을
+                공유합니다.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <div class="font-bold">
+                Spring framework를 통해 웹 서버를 구축할 수 있습니다.
+              </div>
+              <div>
+                우아한 테크코스에서 Spring Data JDBC와 JPA를 이용한 RestfulAPI
+                Application 구현 방법에 대해 학습했습니다.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <div class="font-bold">
+                Vue.js로 간단한 반응형 웹 페이지를 구현할 수 있습니다.
+              </div>
+              <div>현재 보고 계신 페이지를 템플릿 없이 직접 구현했습니다.</div>
+            </div>
+
+            <div class="mb-3">
+              <div class="font-bold">
+                하나의 서비스에 필요한 최소한의 인프라 환경을 구축할 수
+                있습니다.
+              </div>
+              <div>
+                nginx를 통해 정적 웹 페이지 서버를 구축하고 원하는 환경을 설정할
+                수 있습니다.
+              </div>
+              <div>
+                Jenkins의 Publish over SSH와 Shell Script를 통해 Blue-Green
+                방식의 무중단 배포 환경을 구축했습니다.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <div class="font-bold">
+                더 나은 방법, 더 나은 가치를 향해 노력합니다.
+              </div>
+              <div>
+                개발 도중 막히는 부분이 생기면 밤을 새서라도 해결하고
+                싶어합니다.
+              </div>
+              <div>최근에는 DDD와 Vue3에 관심이 생겨 학습하는 중입니다.</div>
+              <div>
+                1일 1커밋을 통해 꾸준히 성장하는 자세를 잃지 않으려고 합니다.
+              </div>
+            </div>
+          </div>
+        </content-box>
+
+        <content-box>
           <div class="mb-3 text-center text-lg md:text-2xl font-bold">
-            🐢 꾸준히 한걸음씩 나아가는 중입니다 🐢
+            🐢 꾸준히 한 걸음씩 나아가는 중입니다! 🐢
           </div>
           <div>
             <a href="https://github.com/hwookim" target="_blank">
@@ -50,23 +122,10 @@
           </div>
         </content-box>
 
-        <content-box>
-          <div class="ml-5 mb-3 text-2xl font-bold">Introduce</div>
-          <div>
-          </div>
-        </content-box>
-
-        <content-box>
-          <div class="ml-5 mb-3 text-2xl font-bold">Skills</div>
-          <div>
-          </div>
-        </content-box>
-
-        <content-box>
-          <div class="ml-5 mb-3 text-2xl font-bold">Project & Experience</div>
-          <div>
-          </div>
-        </content-box>
+        <!--        <content-box>-->
+        <!--          <div class="ml-5 mb-3 text-2xl font-bold">Project & Experience</div>-->
+        <!--          <div></div>-->
+        <!--        </content-box>-->
 
         <content-box>
           <div class="ml-5 mb-3 text-2xl font-bold">Education</div>
@@ -77,10 +136,7 @@
               period="2020.02 ~ 2020.11"
               description="백엔드 과정 수료"
             >
-              <img
-                src="@/assets/img/woowacourse-logo.jpg"
-                alt="wooteco"
-              />
+              <img src="@/assets/img/woowacourse-logo.jpg" alt="wooteco" />
             </education-item>
             <education-item
               src="https://mme.dongguk.edu/"
@@ -88,10 +144,7 @@
               period="2016.03 ~ (휴학)"
               description="멀티미디어공학과 2학년 수료"
             >
-              <img
-                src="@/assets/img/university-logo.jpg"
-                alt="university"
-              />
+              <img src="@/assets/img/university-logo.jpg" alt="university" />
             </education-item>
             <education-item
               src="https://www.dimigo.hs.kr/index.php?mid=class_wp"
@@ -99,10 +152,7 @@
               period="2013.03 ~ 2016.02 (졸업)"
               description="웹프로그래밍학과"
             >
-              <img
-                src="@/assets/img/highschool-logo.jpg"
-                alt="highschool"
-              />
+              <img src="@/assets/img/highschool-logo.jpg" alt="highschool" />
             </education-item>
           </div>
         </content-box>
