@@ -9,5 +9,3 @@ export default {
   name: 'ContentBox',
 };
 </script>
-
-<style scoped></style>
