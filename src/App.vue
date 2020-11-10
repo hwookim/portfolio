@@ -3,7 +3,7 @@
     <div class="h-screen bg-gray-300">
       <div class="flex w-full md:w-4/5 xl:w-2/5 mx-auto pt-5 flex-col">
         <content-box class="p-10 justify-between sm:flex-row">
-          <div>
+          <div class="flex flex-col justify-center">
             <div class="text-5xl font-bold">김현우</div>
             <div>Backend Developer</div>
           </div>
