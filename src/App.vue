@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <div class="h-screen bg-gray-300">
-      <div class="flex w-3/4 xl:w-2/5 mx-auto pt-5 flex-col">
-        <content-box class="p-10 justify-between">
+      <div class="flex w-full md:w-4/5 xl:w-2/5 mx-auto pt-5 flex-col">
+        <content-box class="p-10 justify-between sm:flex-row">
           <div>
             <div class="text-5xl font-bold">김현우</div>
             <div>Backend Developer</div>
@@ -31,7 +31,7 @@
           </div>
         </content-box>
 
-        <content-box class="py-3 px-5 flex-col justify-center">
+        <content-box class="py-3 px-5 justify-center">
           <div class="mb-3 text-center text-2xl font-bold">
             🐢 꾸준히 한걸음씩 나아가는 중입니다 🐢
           </div>
