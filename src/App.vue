@@ -53,63 +53,39 @@
         <content-box>
           <div class="text-2xl font-bold mb-3">Education</div>
           <div class="flex flex-col md:flex-row flex-wrap">
-            <div class="flex flex-row md:w-1/2 mb-3 items-center">
+            <education-item
+              src="https://woowacourse.github.io/"
+              name="우아한테크코스 2기"
+              period="2020.02 ~ 2020.11"
+              description="백엔드 과정 수료"
+            >
               <img
                 src="@/assets/img/woowacourse-logo.jpg"
                 alt="wooteco"
-                class="w-12 h-12 mr-3"
               />
-              <div class="flex flex-col mb-1">
-                <a
-                  href="https://woowacourse.github.io/"
-                  target="_blank"
-                  class="flex items-center"
-                >
-                  <div class="text-xl font-bold mr-1">우아한테크코스 2기</div>
-                  <i class="mdi mdi-link-variant"></i>
-                </a>
-                <div class="text-gray-600">2020.02 ~ 2020.11</div>
-                <div>백엔드 과정 수료</div>
-              </div>
-            </div>
-            <div class="flex flex-row md:w-1/2 mb-3 items-center">
+            </education-item>
+            <education-item
+              src="https://mme.dongguk.edu/"
+              name="동국대학교(서울)"
+              period="2016.03 ~ (휴학)"
+              description="멀티미디어공학과 2학년 수료"
+            >
               <img
                 src="@/assets/img/university-logo.jpg"
                 alt="university"
-                class="w-12 h-12 mr-3"
               />
-              <div class="flex flex-col mb-1">
-                <a
-                  href="https://mme.dongguk.edu/"
-                  target="_blank"
-                  class="flex items-center"
-                >
-                  <div class="text-xl font-bold mr-1">동국대학교(서울)</div>
-                  <i class="mdi mdi-link-variant"></i>
-                </a>
-                <div class="text-gray-600">2016.03 ~ (휴학)</div>
-                <div>멀티미디어공학과 2학년 수료</div>
-              </div>
-            </div>
-            <div class="flex flex-row md:w-1/2 mb-3 items-center">
+            </education-item>
+            <education-item
+              src="https://www.dimigo.hs.kr/index.php?mid=class_wp"
+              name="한국디지털미디어고등학교"
+              period="2013.03 ~ 2016.02 (졸업)"
+              description="웹프로그래밍학과"
+            >
               <img
                 src="@/assets/img/highschool-logo.jpg"
                 alt="highschool"
-                class="w-12 h-12 mr-3"
               />
-              <div class="flex flex-col mb-1">
-                <a
-                  href="https://www.dimigo.hs.kr/index.php?mid=class_wp"
-                  target="_blank"
-                  class="flex items-center"
-                >
-                  <div class="text-xl font-bold mr-1">한국디지털미디어고등학교</div>
-                  <i class="mdi mdi-link-variant"></i>
-                </a>
-                <div class="text-gray-600">2013.03 ~ 2016.02 (졸업)</div>
-                <div>웹프로그래밍학과</div>
-              </div>
-            </div>
+            </education-item>
           </div>
         </content-box>
       </div>
@@ -119,9 +95,10 @@
 
 <script>
 import ContentBox from '@/component/ContentBox.vue';
+import EducationItem from '@/component/EducationItem.vue';
 
 export default {
   name: 'App',
-  components: { ContentBox },
+  components: { EducationItem, ContentBox },
 };
 </script>
