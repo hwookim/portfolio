@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <div class="h-screen bg-gray-300 p-3 md:p-0">
-      <div class="flex w-full md:w-4/5 xl:w-2/5 mx-auto pt-5 flex-col">
+    <div class="h-full bg-gray-300 p-3 md:p-0">
+      <div class="flex w-full md:w-4/5 xl:w-2/5 mx-auto py-5 flex-col">
         <content-box class="p-10 justify-between sm:flex-row">
           <div class="flex flex-col justify-center">
             <div class="text-5xl font-bold">김현우</div>
             <div>Backend Developer</div>
           </div>
-          <div class="flex flex-col justify-between">
+          <div class="flex flex-col justify-between pt-5 md:pt-0">
             <div class="flex items-center">
               <i class="mdi mdi-cellphone text-2xl mr-2" />
               010-3020-9754
@@ -52,8 +52,20 @@
 
         <content-box>
           <div class="text-2xl font-bold mb-3">Education</div>
-          <div class="flex flex-col md:flex-row">
-            <div class="flex flex-row md:w-1/2 items-center">
+          <div class="flex flex-col md:flex-row flex-wrap">
+            <div class="flex flex-row md:w-1/2 mb-3 items-center">
+              <img
+                src="@/assets/img/woowacourse-logo.jpg"
+                alt="wooteco"
+                class="w-12 h-12 mr-3"
+              />
+              <div class="flex flex-col mb-1">
+                <div class="text-xl font-bold">우아한테크코스 2기</div>
+                <div class="text-gray-600">2020.02 ~ 2020.11</div>
+                <div>백엔드 과정 수료</div>
+              </div>
+            </div>
+            <div class="flex flex-row md:w-1/2 mb-3 items-center">
               <img
                 src="@/assets/img/university-logo.jpg"
                 alt="university"
@@ -65,18 +77,16 @@
                 <div>멀티미디어공학과 2학년 수료</div>
               </div>
             </div>
-            <div class="flex">
-              <div class="flex flex-row items-center">
-                <img
-                  src="@/assets/img/highschool-logo.jpg"
-                  alt="highschool"
-                  class="w-12 h-12 mr-3"
-                />
-                <div class="flex flex-col mb-1">
-                  <div class="text-xl font-bold">한국디지털미디어고등학교</div>
-                  <div class="text-gray-600">2013.03 ~ 2016.02 (졸업)</div>
-                  <div>웹프로그래밍학과</div>
-                </div>
+            <div class="flex flex-row md:w-1/2 mb-3 items-center">
+              <img
+                src="@/assets/img/highschool-logo.jpg"
+                alt="highschool"
+                class="w-12 h-12 mr-3"
+              />
+              <div class="flex flex-col mb-1">
+                <div class="text-xl font-bold">한국디지털미디어고등학교</div>
+                <div class="text-gray-600">2013.03 ~ 2016.02 (졸업)</div>
+                <div>웹프로그래밍학과</div>
               </div>
             </div>
           </div>
