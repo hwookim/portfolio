@@ -51,6 +51,24 @@
         </content-box>
 
         <content-box>
+          <div class="ml-5 mb-3 text-2xl font-bold">Introduce</div>
+          <div>
+          </div>
+        </content-box>
+
+        <content-box>
+          <div class="ml-5 mb-3 text-2xl font-bold">Skills</div>
+          <div>
+          </div>
+        </content-box>
+
+        <content-box>
+          <div class="ml-5 mb-3 text-2xl font-bold">Project & Experience</div>
+          <div>
+          </div>
+        </content-box>
+
+        <content-box>
           <div class="ml-5 mb-3 text-2xl font-bold">Education</div>
           <div class="flex flex-col md:flex-row flex-wrap">
             <education-item
