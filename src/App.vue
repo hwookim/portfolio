@@ -8,15 +8,9 @@
             <div>Backend Developer</div>
           </div>
           <div class="flex flex-col justify-between">
-            <div>
-              <a
-                href="https://github.com/hwookim"
-                target="_blank"
-                class="flex items-center"
-              >
-                <i class="mdi mdi-github text-2xl mr-2" />
-                github.com/hwookim
-              </a>
+            <div class="flex items-center">
+              <i class="mdi mdi-cellphone text-2xl mr-2" />
+              010-3020-9754
             </div>
             <div>
               <a
@@ -28,10 +22,20 @@
                 gusdn9754@gmail.com
               </a>
             </div>
+            <div>
+              <a
+                href="https://github.com/hwookim"
+                target="_blank"
+                class="flex items-center"
+              >
+                <i class="mdi mdi-github text-2xl mr-2" />
+                github.com/hwookim
+              </a>
+            </div>
           </div>
         </content-box>
 
-        <content-box class="py-3 px-5 justify-center">
+        <content-box class="py-3 justify-center">
           <div class="mb-3 text-center text-2xl font-bold">
             🐢 꾸준히 한걸음씩 나아가는 중입니다 🐢
           </div>
