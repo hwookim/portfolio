@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="h-full bg-gray-300 p-3">
-      <div class="flex w-full md:w-4/5 xl:w-2/5 mx-auto flex-col">
+      <div class="flex w-full md:w-4/5 xl:w-1/2 mx-auto flex-col">
         <content-box class="mt-0 px-10 py-10 justify-between sm:flex-row">
           <div class="flex flex-col justify-center">
             <div class="text-5xl font-bold">김현우</div>
@@ -51,7 +51,7 @@
         </content-box>
 
         <content-box>
-          <div class="text-2xl font-bold mb-3">Education</div>
+          <div class="ml-5 mb-3 text-2xl font-bold">Education</div>
           <div class="flex flex-col md:flex-row flex-wrap">
             <education-item
               src="https://woowacourse.github.io/"
