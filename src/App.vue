@@ -89,6 +89,7 @@
                   우아한 테크코스에서 Spring Data JDBC와 JPA를 이용한 RestfulAPI
                   Application 구현 방법에 대해 학습했습니다.
                 </li>
+                <!--                https://github.com/hwookim/spring_study/tree/master/woo-->
               </template>
             </toggle-box>
 
@@ -120,7 +121,7 @@
 
             <toggle-box>
               <template v-slot:title>
-                더 나은 방법, 더 나은 가치를 향해 노력합니다.
+                더 나은 방법, 더 나은 가치를 향해 끊임없이 고민합니다.
               </template>
               <template v-slot:content>
                 <li>
