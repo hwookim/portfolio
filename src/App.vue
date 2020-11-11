@@ -37,8 +37,7 @@
 
         <content-box>
           <div class="ml-5 mb-3 text-2xl font-bold">About me</div>
-          <div class="flex mb-3">
-            <div class="mr-1 font-bold">I can</div>
+          <div class="flex flex-wrap">
             <skill-item>Java</skill-item>
             <skill-item>Junit5</skill-item>
             <skill-item>Spring Boot</skill-item>
