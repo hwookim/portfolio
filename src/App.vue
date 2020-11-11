@@ -37,6 +37,17 @@
 
         <content-box>
           <div class="ml-5 mb-3 text-2xl font-bold">About me</div>
+          <div class="flex mb-3">
+            <div class="mr-1 font-bold">I can</div>
+            <skill-item>Java</skill-item>
+            <skill-item>Junit5</skill-item>
+            <skill-item>Spring Boot</skill-item>
+            <skill-item>Spring Data JPA</skill-item>
+            <skill-item>Vue.js</skill-item>
+            <skill-item>AWS</skill-item>
+            <skill-item>Jenkins</skill-item>
+            <skill-item>Nginx</skill-item>
+          </div>
           <div>
             <toggle-box>
               <template v-slot:title>
@@ -184,9 +195,15 @@
 import ContentBox from '@/component/ContentBox.vue';
 import EducationItem from '@/component/EducationItem.vue';
 import ToggleBox from '@/component/ToggleBox.vue';
+import SkillItem from '@/component/SkillItem.vue';
 
 export default {
   name: 'App',
-  components: { ToggleBox, EducationItem, ContentBox },
+  components: {
+    SkillItem,
+    ToggleBox,
+    EducationItem,
+    ContentBox,
+  },
 };
 </script>
