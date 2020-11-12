@@ -120,22 +120,19 @@
                     src="https://github.com/woowacourse-teams/2020-doran-doran/pull/265"
                     >→ 관련 PR
                   </link-icon>
-                  <br />
-                  Publish over SSH와 Shell Script를 통해 Blue-Green 방식의
-                  무중단 배포 환경을 구축했습니다.<br />
-                  Github WebHook의 알림을 기점으로 Jenkins가 빌드를
-                  시작합니다.<br />
-                  Publish over SSH 기능을 통해 빌드된 jar 파일과 미리 작성된
-                  스크립트를 서버로 전송합니다.<br />
-                  미리 작성된 스크립트를 통해 현재 가동 중인 포트를
-                  파악합니다.<br />
-                  실행될 포트에 따라 프로퍼티를 변경해 어플리케이션을
-                  실행합니다.<br />
-                  Jenkins에서 실행된 어플리케이션의 포트에 따라 프론트 파일을
-                  빌드합니다.<br />
-                  빌드된 정적 파일을 서버 측으로 전송한 뒤 스크립트를 통해 기존
-                  서버를 종료합니다.
                 </li>
+                Publish over SSH와 Shell Script를 통해 Blue-Green 방식의 무중단
+                배포 환경을 구축했습니다.<br />
+                Github WebHook의 알림을 기점으로 Jenkins가 빌드를 시작합니다.<br />
+                Publish over SSH 기능을 통해 빌드된 jar 파일과 미리 작성된
+                스크립트를 서버로 전송합니다.<br />
+                미리 작성된 스크립트를 통해 현재 가동 중인 포트를 파악합니다.<br />
+                실행될 포트에 따라 프로퍼티를 변경해 어플리케이션을
+                실행합니다.<br />
+                Jenkins에서 실행된 어플리케이션의 포트에 따라 프론트 파일을
+                빌드합니다.<br />
+                빌드된 정적 파일을 서버 측으로 전송한 뒤 스크립트를 통해 기존
+                서버를 종료합니다.
               </template>
             </toggle-box>
 
@@ -148,20 +145,18 @@
                   개발 도중 막히는 부분이 생기면 밤을 새서라도 해결하고
                   싶어합니다.
                 </li>
-                <li>
-                  최근에는 일일 커밋을 지키고 있습니다.<br />
-                  아직 오픈 소스에 기여하는 등의 외부 활동은 없지만, 작은 것
-                  하나라도 꾸준히 해보려 노력하고 있습니다.<br />
-                  앞으로는 개인 공부나 프로젝트뿐만 아니라 다양한 활동으로
-                  잔디밭을 가꾸어 나가보려 합니다. 🌱
-                  <a href="https://github.com/hwookim" target="_blank">
-                    <img
-                      src="http://ghchart.rshah.org/hwookim"
-                      alt="hwookim's Github chart"
-                      class="my-3"
-                    />
-                  </a>
-                </li>
+                <li>최근에는 일일 커밋을 지키고 있습니다.</li>
+                아직 오픈 소스에 기여하는 등의 외부 활동은 없지만, 작은 것
+                하나라도 꾸준히 해보려 노력하고 있습니다.<br />
+                앞으로는 개인 공부나 프로젝트뿐만 아니라 다양한 활동으로
+                잔디밭을 가꾸어 나가보려 합니다. 🌱
+                <a href="https://github.com/hwookim" target="_blank">
+                  <img
+                    src="http://ghchart.rshah.org/hwookim"
+                    alt="hwookim's Github chart"
+                    class="my-3"
+                  />
+                </a>
               </template>
             </toggle-box>
           </div>
