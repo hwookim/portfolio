@@ -37,10 +37,10 @@
 
         <content-box title="What I can">
           <skill-box type="BackEnd">
-            Java, JUnit5, Spring Boot, Spring Data JPA
+            Java, JUnit5, Mockito, Spring Boot, Spring Data JPA
           </skill-box>
-          <skill-box type="FrontEnd"> JavaScript, Vue,js </skill-box>
-          <skill-box type="Infra"> AWS EC2, Jenkins, Nginx </skill-box>
+          <skill-box type="FrontEnd"> JavaScript(ES6), Vue2 </skill-box>
+          <skill-box type="Infra"> AWS EC2, Jenkins, Nginx, Linux </skill-box>
         </content-box>
 
         <content-box title="About Me">
@@ -86,7 +86,6 @@
                   우아한 테크코스에서 Spring Data JDBC와 JPA를 이용한 RestfulAPI
                   Application 구현 방법에 대해 학습했습니다.
                 </li>
-                <!--                https://github.com/hwookim/spring_study/tree/master/woo-->
               </template>
             </toggle-box>
 
