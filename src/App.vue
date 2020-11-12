@@ -51,9 +51,23 @@
               </template>
               <template v-slot:content>
                 <li>
-                  우아한테크코스에서 처음으로 웹 개발을 배우면서 항상 테스트가
-                  있는 코드만을 접해왔습니다.
+                  Junit5를 이용한 TDD 사이클의 개발을 자연스럽게 익혀왔습니다.
                 </li>
+                우아한테크코스에서 처음으로 웹 개발을 배우면서 항상 테스트가
+                있는 코드만을 접해왔습니다.<br />
+                테스트가 없는 코드에 불안해하고 테스트를 통해 안정성을 보장하고
+                싶어합니다.<br />
+                <link-icon src="https://github.com/hwookim/java-calculator"
+                  >우아한테크코스 온보딩 - 계산기 미션: 저장소
+                </link-icon>
+                <br />
+                <link-icon src="https://github.com/hwookim/java-chess"
+                  >첫 웹 적용 - 체스 미션: 저장소
+                </link-icon>
+                <br />
+                <link-icon src="https://github.com/hwookim/atdd-subway-favorite"
+                  >ATDD 적용 - 지하철 노선도 미션: 저장소
+                </link-icon>
               </template>
             </toggle-box>
 
