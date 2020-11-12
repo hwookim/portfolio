@@ -37,30 +37,11 @@
 
         <content-box>
           <content-box-title>What I can</content-box-title>
-          <div class="flex">
-            <div class="w-1/4 md:w-1/5">BackEnd</div>
-            <div class="w-3/4 md:w-4/5">
-              <skill-item>Java</skill-item>
-              <skill-item>JUnit5</skill-item>
-              <skill-item>Spring Boot</skill-item>
-              <skill-item>Spring Data JPA</skill-item>
-            </div>
-          </div>
-          <div class="flex">
-            <div class="w-1/4 md:w-1/5">FrontEnd</div>
-            <div class="w-3/4 md:w-4/5">
-              <skill-item>JavaScript</skill-item>
-              <skill-item>Vue.js</skill-item>
-            </div>
-          </div>
-          <div class="flex">
-            <div class="w-1/4 md:w-1/5">Infra</div>
-            <div class="w-3/4 md:w-4/5">
-              <skill-item>AWS</skill-item>
-              <skill-item>Jenkins</skill-item>
-              <skill-item>Nginx</skill-item>
-            </div>
-          </div>
+          <skill-box type="BackEnd">
+            Java, JUnit5, Spring Boot, Spring Data JPA
+          </skill-box>
+          <skill-box type="FrontEnd"> JavaScript, Vue,js </skill-box>
+          <skill-box type="Infra"> AWS EC2, Jenkins, Nginx </skill-box>
         </content-box>
 
         <content-box>
@@ -212,14 +193,14 @@
 import ContentBox from '@/component/ContentBox.vue';
 import EducationItem from '@/component/EducationItem.vue';
 import ToggleBox from '@/component/ToggleBox.vue';
-import SkillItem from '@/component/SkillItem.vue';
 import ContentBoxTitle from '@/component/ContentBoxTitle.vue';
+import SkillBox from '@/component/SkillBox.vue';
 
 export default {
   name: 'App',
   components: {
+    SkillBox,
     ContentBoxTitle,
-    SkillItem,
     ToggleBox,
     EducationItem,
     ContentBox,
