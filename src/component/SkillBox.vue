@@ -1,6 +1,6 @@
 <template>
   <div class="flex">
-    <div class="w-1/4 md:w-1/5">{{ type }}</div>
+    <div class="w-1/4 md:w-1/5 font-bold">{{ type }}</div>
     <div class="w-3/4 md:w-4/5">
       <div ref="skills" class="hidden">
         <slot></slot>
