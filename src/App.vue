@@ -125,8 +125,11 @@
                   싶어합니다.
                 </li>
                 <li>
-                  최근 1일 1커밋 운동을 시작했습니다.<br />
-                  이를 통해 꾸준히 성장하는 자세를 잃지 않으려고 노력 중입니다.
+                  최근에는 일일 커밋을 지키고 있습니다.<br />
+                  아직 오픈 소스에 기여하는 등의 외부 활동은 없지만, 작은 것
+                  하나라도 꾸준히 해보려 노력하고 있습니다.<br />
+                  앞으로는 개인 공부나 프로젝트뿐만 아니라 다양한 활동으로
+                  잔디밭을 가꾸어 나가보려 합니다. 🌱
                   <a href="https://github.com/hwookim" target="_blank">
                     <img
                       src="http://ghchart.rshah.org/hwookim"
@@ -189,10 +192,3 @@ export default {
   },
 };
 </script>
-
-<style>
-li {
-  margin-left: 1rem;
-  text-indent: -1.3rem;
-}
-</style>
