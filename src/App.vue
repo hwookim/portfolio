@@ -95,7 +95,15 @@
                 Vue.js로 간단한 반응형 웹 페이지를 구현할 수 있습니다.
               </template>
               <template v-slot:content>
-                <li>현재 보고 계신 페이지를 템플릿 없이 직접 구현했습니다.</li>
+                <li>
+                  현재 보고 계신 페이지를 템플릿 없이 직접 구현했습니다.
+                  <link-icon
+                    src="https://github.com/hwookim/portfolio"
+                    >→ 저장소
+                  </link-icon>
+                </li>
+                Vue.js2와 tailwind를 이용해 최소한의 반응형 웹페이지를
+                제작했습니다.
               </template>
             </toggle-box>
 
