@@ -5,18 +5,20 @@
       <div ref="skills" class="hidden">
         <slot></slot>
       </div>
-      <skill-item v-for="(skill, i) in skills" :key="i">{{ skill }}</skill-item>
+      <skill-box-item v-for="(skill, i) in skills" :key="i">
+        {{ skill }}
+      </skill-box-item>
     </div>
   </div>
 </template>
 
 <script>
-import SkillItem from '@/component/SkillItem.vue';
+import SkillBoxItem from '@/component/SkillBoxItem.vue';
 
 export default {
   name: 'SkillBox',
   components: {
-    SkillItem,
+    SkillBoxItem,
   },
   props: {
     type: {

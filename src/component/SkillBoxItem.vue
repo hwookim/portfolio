@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'SkillItem',
+  name: 'SkillBoxItem',
 };
 </script>
