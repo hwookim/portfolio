@@ -36,7 +36,7 @@
         </content-box>
 
         <content-box>
-          <div class="ml-5 mb-3 text-2xl font-bold">About me</div>
+          <content-box-title>About me</content-box-title>
           <div class="flex flex-wrap">
             <skill-item>Java</skill-item>
             <skill-item>Junit5</skill-item>
@@ -157,7 +157,7 @@
         <!--        </content-box>-->
 
         <content-box>
-          <div class="ml-5 mb-3 text-2xl font-bold">Education</div>
+          <content-box-title>Education</content-box-title>
           <div class="flex flex-col md:flex-row flex-wrap">
             <education-item
               src="https://woowacourse.github.io/"
@@ -195,10 +195,12 @@ import ContentBox from '@/component/ContentBox.vue';
 import EducationItem from '@/component/EducationItem.vue';
 import ToggleBox from '@/component/ToggleBox.vue';
 import SkillItem from '@/component/SkillItem.vue';
+import ContentBoxTitle from '@/component/ContentBoxTitle.vue';
 
 export default {
   name: 'App',
   components: {
+    ContentBoxTitle,
     SkillItem,
     ToggleBox,
     EducationItem,
