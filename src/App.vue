@@ -35,8 +35,7 @@
           </div>
         </content-box>
 
-        <content-box>
-          <content-box-title>What I can</content-box-title>
+        <content-box title="What I can">
           <skill-box type="BackEnd">
             Java, JUnit5, Spring Boot, Spring Data JPA
           </skill-box>
@@ -44,8 +43,7 @@
           <skill-box type="Infra"> AWS EC2, Jenkins, Nginx </skill-box>
         </content-box>
 
-        <content-box>
-          <content-box-title>About me</content-box-title>
+        <content-box title="About Me">
           <div>
             <toggle-box>
               <template v-slot:title>
@@ -150,13 +148,7 @@
           </div>
         </content-box>
 
-        <!--        <content-box>-->
-        <!--          <div class="ml-5 mb-3 text-2xl font-bold">Project & Experience</div>-->
-        <!--          <div></div>-->
-        <!--        </content-box>-->
-
-        <content-box>
-          <content-box-title>Education</content-box-title>
+        <content-box title="Education">
           <div class="flex flex-col md:flex-row flex-wrap">
             <education-item
               src="https://woowacourse.github.io/"
@@ -193,14 +185,12 @@
 import ContentBox from '@/component/ContentBox.vue';
 import EducationItem from '@/component/EducationItem.vue';
 import ToggleBox from '@/component/ToggleBox.vue';
-import ContentBoxTitle from '@/component/ContentBoxTitle.vue';
 import SkillBox from '@/component/SkillBox.vue';
 
 export default {
   name: 'App',
   components: {
     SkillBox,
-    ContentBoxTitle,
     ToggleBox,
     EducationItem,
     ContentBox,
