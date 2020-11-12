@@ -125,25 +125,18 @@
                   싶어합니다.
                 </li>
                 <li>
-                  1일 1커밋을 통해 꾸준히 성장하는 자세를 잃지 않으려고 합니다.
+                  최근 1일 1커밋 운동을 시작했습니다.<br />
+                  이를 통해 꾸준히 성장하는 자세를 잃지 않으려고 노력 중입니다.
+                  <a href="https://github.com/hwookim" target="_blank">
+                    <img
+                      src="http://ghchart.rshah.org/hwookim"
+                      alt="hwookim's Github chart"
+                      class="my-3"
+                    />
+                  </a>
                 </li>
               </template>
             </toggle-box>
-          </div>
-        </content-box>
-
-        <content-box>
-          <div class="mb-3 text-center text-lg md:text-2xl font-bold">
-            🐢 꾸준히 한 걸음씩 나아가는 중입니다! 🐢
-          </div>
-          <div>
-            <a href="https://github.com/hwookim" target="_blank">
-              <img
-                src="http://ghchart.rshah.org/hwookim"
-                alt="hwookim's Github chart"
-                class="w-full"
-              />
-            </a>
           </div>
         </content-box>
 
@@ -196,3 +189,10 @@ export default {
   },
 };
 </script>
+
+<style>
+li {
+  margin-left: 1rem;
+  text-indent: -1.3rem;
+}
+</style>
