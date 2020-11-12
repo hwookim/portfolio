@@ -36,17 +36,35 @@
         </content-box>
 
         <content-box>
-          <content-box-title>About me</content-box-title>
-          <div class="flex flex-wrap">
-            <skill-item>Java</skill-item>
-            <skill-item>Junit5</skill-item>
-            <skill-item>Spring Boot</skill-item>
-            <skill-item>Spring Data JPA</skill-item>
-            <skill-item>Vue.js</skill-item>
-            <skill-item>AWS</skill-item>
-            <skill-item>Jenkins</skill-item>
-            <skill-item>Nginx</skill-item>
+          <content-box-title>What I can</content-box-title>
+          <div class="flex">
+            <div class="w-1/4 md:w-1/5">BackEnd</div>
+            <div class="w-3/4 md:w-4/5">
+              <skill-item>Java</skill-item>
+              <skill-item>JUnit5</skill-item>
+              <skill-item>Spring Boot</skill-item>
+              <skill-item>Spring Data JPA</skill-item>
+            </div>
           </div>
+          <div class="flex">
+            <div class="w-1/4 md:w-1/5">FrontEnd</div>
+            <div class="w-3/4 md:w-4/5">
+              <skill-item>JavaScript</skill-item>
+              <skill-item>Vue.js</skill-item>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="w-1/4 md:w-1/5">Infra</div>
+            <div class="w-3/4 md:w-4/5">
+              <skill-item>AWS</skill-item>
+              <skill-item>Jenkins</skill-item>
+              <skill-item>Nginx</skill-item>
+            </div>
+          </div>
+        </content-box>
+
+        <content-box>
+          <content-box-title>About me</content-box-title>
           <div>
             <toggle-box>
               <template v-slot:title>
@@ -72,7 +90,7 @@
                 다양한 방법으로 의견을 공유하고 설득하고 설득당하는 걸 즐깁니다.
               </template>
               <template v-slot:content>
-                <li>팀원 간의 코드리뷰를 통해 더 나은 코드를 추구합니다.</li>
+                <li>코드리뷰를 통해 더 나은 코드를 추구합니다.</li>
                 <li>
                   우아한 테크코스에서 운영하는 기술 블로그를 통해 배운 지식을
                   공유합니다.
