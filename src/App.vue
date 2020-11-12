@@ -65,7 +65,7 @@
                 <li>페어 프로그래밍으로 미션을 진행한 경험이 있습니다.</li>
                 <li>코드리뷰를 통해 더 나은 코드를 추구합니다.</li>
                 <li>
-                  우아한 테크코스에서 운영하는 기술 블로그를 통해 학습 내용을
+                  우아한테크코스에서 운영하는 기술 블로그를 통해 학습 내용을
                   공유합니다.
                 </li>
               </template>
@@ -77,7 +77,7 @@
               </template>
               <template v-slot:content>
                 <li>
-                  우아한 테크코스에서 Spring Data JDBC와 JPA를 이용한 RestfulAPI
+                  우아한테크코스에서 Spring Data JDBC와 JPA를 이용한 RestfulAPI
                   Application 구현 방법에 대해 학습했습니다.
                 </li>
               </template>
@@ -90,8 +90,7 @@
               <template v-slot:content>
                 <li>
                   현재 보고 계신 페이지를 템플릿 없이 직접 구현했습니다.
-                  <link-icon
-                    src="https://github.com/hwookim/portfolio"
+                  <link-icon src="https://github.com/hwookim/portfolio"
                     >→ 저장소
                   </link-icon>
                 </li>
