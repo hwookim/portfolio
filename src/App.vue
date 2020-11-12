@@ -107,10 +107,33 @@
                 <li>
                   nginx를 통해 정적 웹 페이지 서버를 구축하고 원하는 환경을
                   설정할 수 있습니다.
+                  <link-icon
+                    src="https://github.com/woowacourse-teams/2020-doran-doran/pull/260"
+                    >→ 관련 PR
+                  </link-icon>
                 </li>
+                <!--TODO 사진 첨부-->
                 <li>
-                  Jenkins의 Publish over SSH와 Shell Script를 통해 Blue-Green
-                  방식의 무중단 배포 환경을 구축했습니다.
+                  Jenkins를 통해 무중단 배포를 구현할 수 있습니다.
+                  <link-icon
+                    src="https://github.com/woowacourse-teams/2020-doran-doran/pull/265"
+                    >→ 관련 PR
+                  </link-icon>
+                  <br />
+                  Publish over SSH와 Shell Script를 통해 Blue-Green 방식의
+                  무중단 배포 환경을 구축했습니다.<br />
+                  Github WebHook의 알림을 기점으로 Jenkins가 빌드를
+                  시작합니다.<br />
+                  Publish over SSH 기능을 통해 빌드된 jar 파일과 미리 작성된
+                  스크립트를 서버로 전송합니다.<br />
+                  미리 작성된 스크립트를 통해 현재 가동 중인 포트를
+                  파악합니다.<br />
+                  실행될 포트에 따라 프로퍼티를 변경해 어플리케이션을
+                  실행합니다.<br />
+                  Jenkins에서 실행된 어플리케이션의 포트에 따라 프론트 파일을
+                  빌드합니다.<br />
+                  빌드된 정적 파일을 서버 측으로 전송한 뒤 스크립트를 통해 기존
+                  서버를 종료합니다.
                 </li>
               </template>
             </toggle-box>
@@ -181,10 +204,12 @@ import ContentBox from '@/component/ContentBox.vue';
 import EducationItem from '@/component/EducationItem.vue';
 import ToggleBox from '@/component/ToggleBox.vue';
 import SkillBox from '@/component/SkillBox.vue';
+import LinkIcon from '@/component/LinkIcon.vue';
 
 export default {
   name: 'App',
   components: {
+    LinkIcon,
     SkillBox,
     ToggleBox,
     EducationItem,
