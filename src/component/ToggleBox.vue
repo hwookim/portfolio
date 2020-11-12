@@ -4,7 +4,7 @@
       <div class="mr-2">{{ mark }}</div>
       <slot name="title"></slot>
     </div>
-    <div class="p-5 bg-gray-100" :class="{ hidden }">
+    <div v-show="show" class="p-5 bg-gray-100">
       <slot name="content"></slot>
     </div>
   </div>
@@ -19,13 +19,13 @@ export default {
   data() {
     return {
       mark: NOT_OPENED,
-      hidden: true,
+      show: false,
     };
   },
   methods: {
     toggle() {
       this.mark = this.mark === NOT_OPENED ? OPENED : NOT_OPENED;
-      this.hidden = !this.hidden;
+      this.show = !this.show;
     },
   },
 };
