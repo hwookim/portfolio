@@ -53,8 +53,7 @@
                 <li>
                   Junit5를 이용한 TDD 사이클의 개발을 자연스럽게 익혀왔습니다.
                 </li>
-                처음으로 웹 개발을 시작할 때부터 항상 테스트가 있는 코드만을
-                접해왔습니다.<br />
+                처음 웹 개발을 시작할 때부터 테스트가 있는 코드를 접했습니다.<br />
                 테스트가 없는 코드에 불안해하고 테스트를 통해 안정성을 보장하고
                 싶어합니다.<br />
 
@@ -130,7 +129,10 @@
                 </li>
                 Publish over SSH와 Shell Script를 통해 Blue-Green 방식의 무중단
                 배포 환경을 구축했습니다.<br />
-                <img src="@/assets/img/build-pipeline.png" alt="build pipeline" />
+                <img
+                  src="@/assets/img/build-pipeline.png"
+                  alt="build pipeline"
+                />
               </template>
             </toggle-box>
           </div>
