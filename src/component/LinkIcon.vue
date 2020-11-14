@@ -1,5 +1,5 @@
 <template>
-  <a :href="src" target="_blank" class="inline-block items-center hover:text-blue-600">
+  <a :href="src" target="_blank" class="inline-block items-center text-blue-600">
     <slot></slot>
     <i class="mdi mdi-link-variant"></i>
   </a>

@@ -58,16 +58,19 @@
                 테스트가 없는 코드에 불안해하고 테스트를 통해 안정성을 보장하고
                 싶어합니다.<br />
                 <link-icon src="https://github.com/hwookim/java-calculator"
-                  >우아한테크코스 온보딩 - 계산기 미션: 저장소
+                >계산기 미션
                 </link-icon>
+                - 우아한테크코스 온보딩
                 <br />
                 <link-icon src="https://github.com/hwookim/java-chess"
-                  >첫 웹 적용 - 체스 미션: 저장소
+                >체스 미션
                 </link-icon>
+                - 첫 웹 구현
                 <br />
                 <link-icon src="https://github.com/hwookim/atdd-subway-favorite"
-                  >ATDD 적용 - 지하철 노선도 미션: 저장소
+                >지하철 노선도 미션
                 </link-icon>
+                - ATDD 적용
               </template>
             </toggle-box>
 
