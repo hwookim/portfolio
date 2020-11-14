@@ -151,30 +151,6 @@
                 서버를 종료합니다.
               </template>
             </toggle-box>
-
-            <toggle-box>
-              <template v-slot:title>
-                더 나은 방법, 더 나은 가치를 향해 끊임없이 고민합니다.
-              </template>
-              <template v-slot:content>
-                <li>
-                  개발 도중 막히는 부분이 생기면 밤을 새서라도 해결하고
-                  싶어합니다.
-                </li>
-                <li>최근에는 일일 커밋을 지키고 있습니다.</li>
-                아직 오픈 소스에 기여하는 등의 외부 활동은 없지만, 작은 것
-                하나라도 꾸준히 해보려 노력하고 있습니다.<br />
-                앞으로는 개인 공부나 프로젝트뿐만 아니라 다양한 활동으로
-                잔디밭을 가꾸어 나가보려 합니다. 🌱
-                <a href="https://github.com/hwookim" target="_blank">
-                  <img
-                    src="http://ghchart.rshah.org/hwookim"
-                    alt="hwookim's Github chart"
-                    class="my-3"
-                  />
-                </a>
-              </template>
-            </toggle-box>
           </div>
         </content-box>
 
