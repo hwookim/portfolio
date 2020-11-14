@@ -90,18 +90,6 @@
 
             <toggle-box>
               <template v-slot:title>
-                Spring framework를 통해 웹 서버를 구축할 수 있습니다.
-              </template>
-              <template v-slot:content>
-                <li>
-                  우아한테크코스에서 Spring Data JDBC와 JPA를 이용한 RestfulAPI
-                  Application 구현 방법에 대해 학습했습니다.
-                </li>
-              </template>
-            </toggle-box>
-
-            <toggle-box>
-              <template v-slot:title>
                 Vue.js로 간단한 반응형 웹 페이지를 구현할 수 있습니다.
               </template>
               <template v-slot:content>
