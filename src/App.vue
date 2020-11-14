@@ -138,6 +138,53 @@
           </div>
         </content-box>
 
+        <content-box title="Project & Experience">
+          <div class="flex flex-col">
+            <div class="flex justify-between">
+              <div>
+                <div class="flex">
+                  <div class="w-auto mb-2 text-3xl font-bold">도란도란</div>
+                  <div class="ml-3">
+                    <link-icon src="https://dorandoran.io">
+                      dorandoran.io
+                    </link-icon>
+                    <br />
+                    <link-icon
+                      src="https://github.com/woowacourse-teams/2020-doran-doran"
+                    >
+                      <i class="mdi mdi-github" />
+                      깃헙 저장소
+                    </link-icon>
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <i>기간: 2020.06 ~ 진행중</i>
+                </div>
+
+                <div>지도 위에 글을 써 주위 사람들과 소통할 수 있는</div>
+                <span class="font-bold"> 위치 기반 커뮤니티 서비스 </span>
+                →
+                <link-icon
+                  src="https://sites.google.com/woowahan.com/wooteco-demo/%EB%8F%84%EB%9E%80%EB%8F%84%EB%9E%80"
+                  >소개 페이지
+                </link-icon>
+              </div>
+
+              <div>
+                <div class="text-xl font-bold">What I did</div>
+                <li>Springboot 기반 Restful API Application 설계 및 구현</li>
+                <li>Spring Data JPA 기반 도메인 설계 및 구현</li>
+                <li>Git Flow 기반 프로젝트 관리</li>
+                <li>TDD를 통한 댓글 기능 CRD 구현</li>
+                <li>Jenkins를 통한 무중단 CI/CD 환경 구현</li>
+                <li>Vue.js를 통한 프론트 페이지 구현</li>
+                <li>KakaoMap API 사용을 위한 Vue.js 플러그인 구현</li>
+              </div>
+            </div>
+          </div>
+        </content-box>
+
         <content-box title="Education">
           <div class="flex flex-col md:flex-row flex-wrap">
             <education-item
