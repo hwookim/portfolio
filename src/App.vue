@@ -96,9 +96,9 @@
               </template>
               <template v-slot:content>
                 <li>
-                  현재 보고 계신 페이지를 템플릿 없이 직접 구현했습니다.
-                  <link-icon src="https://github.com/hwookim/portfolio"
-                    >→ 저장소
+                  현재 보고 계신 페이지를 템플릿 없이 직접 구현했습니다. →
+                  <link-icon src="https://github.com/hwookim/portfolio">
+                    저장소
                   </link-icon>
                 </li>
                 Vue.js2와 tailwind를 이용해 최소한의 반응형 웹페이지를
@@ -159,7 +159,7 @@
                 </div>
 
                 <div class="mb-3">
-                  <i>기간: 2020.06 ~ 진행중</i>
+                  <i>기간: 2020.06 ~ ing</i>
                 </div>
 
                 <div>지도 위에 글을 써 주위 사람들과 소통할 수 있는</div>
