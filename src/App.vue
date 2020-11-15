@@ -47,32 +47,31 @@
           <div>
             <toggle-box>
               <template v-slot:title>
-                테스트 작성을 당연하게 생각합니다.
+                Junit5를 활용한 TDD 사이클의 개발을 자연스럽게 익혀왔습니다.
               </template>
               <template v-slot:content>
-                <li>
-                  Junit5를 이용한 TDD 사이클의 개발을 자연스럽게 익혀왔습니다.
-                </li>
-                처음 웹 개발을 시작할 때부터 테스트가 있는 코드를 접했습니다.<br />
-                테스트가 없는 코드에 불안해하고 테스트를 통해 안정성을 보장하고
-                싶어합니다.<br />
+                처음 웹 개발을 시작할 때 부터 테스트가 있는 코드를
+                접했습니다.<br />
+                테스트가 주는 이점을 이해하고 있으며 상황에 맞는 테스트를 작성할
+                수 있도록 노력하고 있습니다.<br />
+                <br />
 
+                - 우아한테크코스 온보딩 :
                 <link-icon src="https://github.com/hwookim/java-calculator"
                   >계산기 미션
                 </link-icon>
-                - 우아한테크코스 온보딩
                 <br />
 
+                - 첫 웹 구현 :
                 <link-icon src="https://github.com/hwookim/java-chess"
                   >체스 미션
                 </link-icon>
-                - 첫 웹 구현
                 <br />
 
+                - ATDD 적용 :
                 <link-icon src="https://github.com/hwookim/atdd-subway-favorite"
                   >지하철 노선도 미션
                 </link-icon>
-                - ATDD 적용
               </template>
             </toggle-box>
 
