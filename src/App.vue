@@ -140,8 +140,8 @@
 
         <content-box title="Project & Experience">
           <div class="flex flex-col">
-            <div class="flex justify-between">
-              <div>
+            <div class="flex flex-col md:flex-row justify-between">
+              <div class="mb-3">
                 <div class="flex">
                   <div class="w-auto mb-2 text-3xl font-bold">도란도란</div>
                   <div class="ml-3">
