@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="h-full bg-gray-300 p-3">
+    <div class="h-full p-3">
       <div class="flex w-full md:w-4/5 xl:w-1/2 mx-auto flex-col">
         <content-box class="mt-0 px-10 py-10 justify-between sm:flex-row">
           <div class="flex flex-col justify-center">
