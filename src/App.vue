@@ -172,11 +172,12 @@
 
               <div>
                 <div class="text-xl font-bold">What I did</div>
-                <li>Springboot 기반 Restful API Application 설계 및 구현</li>
+                <li>Springboot 기반 API 설계 및 구현</li>
                 <li>Spring Data JPA 기반 도메인 설계 및 구현</li>
                 <li>Git Flow 기반 프로젝트 관리</li>
                 <li>TDD를 통한 댓글 기능 CRD 구현</li>
                 <li>Jenkins를 통한 무중단 CI/CD 환경 구현</li>
+                <li>Nginx를 통한 정적 파일 관리</li>
                 <li>Vue.js를 통한 프론트 페이지 구현</li>
                 <li>KakaoMap API 사용을 위한 Vue.js 플러그인 구현</li>
               </div>
