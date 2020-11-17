@@ -163,11 +163,6 @@
 
                 <div>지도 위에 글을 써 주위 사람들과 소통할 수 있는</div>
                 <span class="font-bold"> 위치 기반 커뮤니티 서비스 </span>
-                →
-                <link-icon
-                  src="https://sites.google.com/woowahan.com/wooteco-demo/%EB%8F%84%EB%9E%80%EB%8F%84%EB%9E%80"
-                  >소개 페이지
-                </link-icon>
               </div>
 
               <div>
