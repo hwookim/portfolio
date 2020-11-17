@@ -144,10 +144,6 @@
                 <div class="flex">
                   <div class="w-auto mb-2 text-3xl font-bold">도란도란</div>
                   <div class="ml-3">
-                    <link-icon src="https://dorandoran.io">
-                      dorandoran.io
-                    </link-icon>
-                    <br />
                     <link-icon
                       src="https://github.com/woowacourse-teams/2020-doran-doran"
                     >
