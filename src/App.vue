@@ -140,7 +140,7 @@
         <content-box title="Project & Experience">
           <div class="flex flex-col">
             <div class="flex flex-col md:flex-row justify-between">
-              <div class="mb-3">
+              <div class="mb-3 w-full md:w-1/2">
                 <div class="flex">
                   <div class="w-auto mb-2 text-3xl font-bold">도란도란</div>
                   <div class="ml-3">
@@ -161,7 +161,7 @@
                 <span class="font-bold"> 위치 기반 커뮤니티 서비스 </span>
               </div>
 
-              <div>
+              <div class="w-full md:w-1/2">
                 <div class="text-xl font-bold">What I did</div>
                 <li>Springboot 기반 API 설계 및 구현</li>
                 <li>Spring Data JPA 기반 도메인 설계 및 구현</li>
@@ -171,6 +171,17 @@
                 <li>Nginx를 통한 정적 파일 관리</li>
                 <li>Vue.js를 통한 프론트 페이지 구현</li>
                 <li>KakaoMap API 사용을 위한 Vue.js 플러그인 구현</li>
+
+                <div class="mt-5 text-xl font-bold">Technologies Used</div>
+                <skill-box type="BackEnd">
+                  Java8, JUnit5, Spring Boot 2.3, Spring Data JPA, QueryDSL
+                </skill-box>
+                <skill-box type="FrontEnd">
+                  JavaScript (ES6), Vue.js 2, Vuetify, Axios
+                </skill-box>
+                <skill-box type="Infra">
+                  Maria DB, AWS EC2, Jenkins, Nginx, Git
+                </skill-box>
               </div>
             </div>
           </div>
