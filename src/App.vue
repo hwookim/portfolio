@@ -190,14 +190,6 @@
         <content-box title="Education">
           <div class="flex flex-col md:flex-row flex-wrap">
             <education-item
-              src="https://woowacourse.github.io/"
-              name="우아한테크코스 2기"
-              period="2020.02 ~ 2020.11"
-              description="백엔드 과정 수료"
-            >
-              <img src="@/assets/img/woowacourse-logo.jpg" alt="wooteco" />
-            </education-item>
-            <education-item
               src="https://mme.dongguk.edu/"
               name="동국대학교(서울)"
               period="2016.03 ~ (휴학)"
