@@ -137,7 +137,7 @@
           </div>
         </content-box>
 
-        <content-box title="Project & Experience">
+        <content-box title="Project">
           <div class="flex flex-col">
             <div class="flex flex-col md:flex-row justify-between">
               <div class="mb-3 w-full md:w-1/2">
